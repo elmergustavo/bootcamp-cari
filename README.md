@@ -25,6 +25,12 @@ ejecutar el siguiente comando:
 php artisan migrate
 ```
 
+Comando para dar permisos de escritura:
+```
+sudo chown -R usuario ~/*
+```
+
+
 - enlaces
 Install Tailwind CSS with Laravel
 - https://tailwindcss.com/docs/guides/laravel
