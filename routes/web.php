@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+
+Route::get('/', \App\Http\Livewire\Counter::class)->name('counter');
+
+Route::get('/calculator', \App\Http\Livewire\Calculator::class)->name('calculator');
+Route::get('/todo-list', \App\Http\Livewire\TodoList::class)->name('todo-list');
+Route::get('/cascading-dropdown', \App\Http\Livewire\CascadingDropdown::class)->name('cascading-dropdown');
