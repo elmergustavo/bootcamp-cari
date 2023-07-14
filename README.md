@@ -25,3 +25,6 @@ ejecutar el siguiente comando:
 php artisan migrate
 ```
 
+- enlaces
+Install Tailwind CSS with Laravel
+- https://tailwindcss.com/docs/guides/laravel
