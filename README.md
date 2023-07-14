@@ -30,6 +30,11 @@ Comando para dar permisos de escritura:
 sudo chown -R usuario ~/*
 ```
 
+Comando para limpiar cache
+```
+sudo chmod -R 777 bootstrap/cache/
+```
+
 
 - enlaces
 Install Tailwind CSS with Laravel
