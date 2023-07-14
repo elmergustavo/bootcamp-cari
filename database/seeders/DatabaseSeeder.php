@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 // use App\Models\Continent;
 use App\Models\Country;
-// use App\Models\Product;
+use App\Models\Product;
 use Database\Factories\CountryFactory;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -33,6 +33,6 @@ class DatabaseSeeder extends Seeder
                 });;
         }
 
-        // Product::factory(100)->create();
+        Product::factory(100)->create();
     }
 }
