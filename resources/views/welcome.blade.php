@@ -1,3 +1,3 @@
 <x-layout>
-    dfsfsfa create app
+   <x-welcome />
 </x-layout>
