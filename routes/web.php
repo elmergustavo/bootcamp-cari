@@ -24,3 +24,4 @@ Route::get('/cascading-dropdown', \App\Http\Livewire\CascadingDropdown::class)->
 
 Route::get('/products', \App\Http\Livewire\ProductsSearch::class)->name('products');
 Route::get('/image-upload', \App\Http\Livewire\ImageUpload::class)->name('image-upload');
+Route::get('/register', \App\Http\Livewire\RegisterForm::class)->name('register');
