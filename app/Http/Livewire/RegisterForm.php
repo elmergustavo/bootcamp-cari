@@ -23,6 +23,11 @@ class RegisterForm extends Component
         'vat_number' => ['required_if:role,vendor'],
     ];
 
+    protected $messages = [
+        'first_name' => 'El campo :attribute es obligatorio.',
+        'email' => 'El campo :attribute debe ser una dirección de correo válida.',
+    ];
+
     public function render()
     {
         return view('livewire.register-form');
