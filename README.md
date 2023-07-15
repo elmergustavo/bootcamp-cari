@@ -1,5 +1,24 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://cari.azureedge.net/cari-website-images/2021/08/CARInet-Logotipo-512w.png" width="400" alt="Laravel Logo"></a></p>
 
+<h2>Libraries used</h2>
+
+<table>
+  <tr>
+    <td align="center"> <img align="center" src="https://github.com/elmergustavo/elmergustavo/blob/master/tallStack/tailwind-css-2.svg" alt="nextjs logo" width="100" /></td>
+		<td align="center"> <img align="center" src="/public/assets/icons/react.png" alt="react logo" width="100" /></td>
+		<td align="center"> <img align="center" src="/public/assets/icons/materialui.svg" alt="material-ui logo" width="100" /></td>
+		<td align="center"> <img align="center" src="/public/assets/icons/framer.png" alt="framer-motion logo" width="100" /></td>
+		<td align="center"> <img align="center" src="/public/assets/icons/react-spring.svg" alt="react-spring logo" width="100" /></td>
+  </tr> 
+   <tr>
+      <td align="center"><b> Next.js </b></td>
+			<td align="center"><b> React </b></td>
+			<td align="center"><b> Material-UI </b></td>
+			<td align="center"><b> Framer Motion </b></td>
+			<td align="center"><b> react-spring </b></td>
+  </tr>
+</table>
+
 
 ## Instalación
 - ejecutar desde la consola el siguiente comando para acceder al bash de contenedor:
