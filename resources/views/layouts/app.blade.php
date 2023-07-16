@@ -26,9 +26,11 @@
         <a href="{{ route('products') }}" class="py-4 px-6 hover:bg-slate-800 {{ (request()->routeIs('products')) ? 'bg-slate-800' : '' }}">Products Search</a>
         <a href="/image-upload" class="py-4 px-6 hover:bg-slate-800 {{ (request()->routeIs('image-upload')) ? 'bg-slate-800' : '' }}">Image Upload</a>
         <a href="/register" class="py-4 px-6 hover:bg-slate-800 {{ (request()->routeIs('register')) ? 'bg-slate-800' : '' }}">Registration</a>
+        <a href="/alpine" class="py-4 px-6 hover:bg-slate-800 {{ (request()->routeIs('alpine')) ? 'bg-slate-800' : '' }}">Alpine JS</a>
     </nav>
 
-{{ $slot }}
+    {{ $slot }}
+
 
 <livewire:scripts/>
 </body>

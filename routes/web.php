@@ -13,6 +13,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/alpine', function () {
+    return view('alpinejs');
+});
+
+Route::get('/invoice', function () {
+    return view('invoice');
+})->name('invoice');
+
+Route::get('/multistep', function () {
+    return view('multistep-form');
+})->name('multistep');
+
+Route::get('/kanban', function () {
+    return view('kanban-board');
+})->name('kanban');
 
 
 Route::get('/', \App\Http\Livewire\Counter::class)->name('counter');
