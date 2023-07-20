@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Livewire\Alpinejs;
+use App\Http\Livewire\ComponentAlpine;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/components', function () {
+//     return view('livewire.components-alpine');
+// });
+
+Route::get('/', Alpinejs::class);
